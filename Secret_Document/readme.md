@@ -31,4 +31,4 @@ for i in range(0, len(cipher),1):
         result.write((cipher[i] ^ ord(key[i % 5])).to_bytes(1, byteorder="big"))
 ```
 Sau khi chạy đoạn chương trình trên, ta được một file [solve.png](https://github.com/Butterflies4/shellCTF/blob/main/Secret_Document/solve.png) chứa flag
-## Flag `shell{y0u_c4n_s33_th3_h1dd3n}
+## Flag `shell{y0u_c4n_s33_th3_h1dd3n}`
